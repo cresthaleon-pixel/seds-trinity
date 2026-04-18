@@ -1,0 +1,323 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+    background-color: #1a1a2e;
+}
+
+/* Header */
+header {
+    background-color: #16213e;
+    padding: 15px 0;
+    border-bottom: 3px solid #0f3460;
+}
+
+nav {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #e94560;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0f3460;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.cta-button {
+    background-color: #e94560;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #c73e54;
+}
+
+/* Content Area */
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Mission Section */
+.mission {
+    background-color: #16213e;
+    padding: 30px;
+    text-align: center;
+    margin: 30px 0;
+    border-radius: 10px;
+    border: 2px solid #0f3460;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #16213e;
+    border: 2px solid #0f3460;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-card:hover {
+    border-color: #e94560;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #e94560;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Team Grid */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+    padding: 25px;
+    background-color: #16213e;
+    border: 2px solid #0f3460;
+    border-radius: 10px;
+}
+
+.team-member:hover {
+    border-color: #e94560;
+}
+
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #e94560;
+}
+
+.team-member h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #16213e;
+    border: 2px solid #0f3460;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #e94560;
+}
+
+.form-group textarea {
+    height: 120px;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #e94560;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #c73e54;
+}
+
+/* IYPT Highlight Section */
+.iypt-section {
+    background-color: #e94560;
+    padding: 40px;
+    margin: 40px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.iypt-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.iypt-section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 20px auto;
+    display: block;
+    object-fit: cover;
+}
+
+.iypt-section h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.iypt-section p {
+    font-size: 16px;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #16213e;
+    border-top: 3px solid #0f3460;
+    padding: 25px;
+    text-align: center;
+}
+
+.back-to-top {
+    color: #e94560;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    color: #ccc;
+    font-size: 14px;
+}
+
+/* Responsive - for smaller screens */
+@media (max-width: 768px) {
+    .nav-links {
+        gap: 15px;
+    }
+    
+    .projects-grid,
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero h1 {
+        font-size: 28px;
+    }
+    
+    .iypt-section {
+        padding: 25px;
+    }
+    
+    .iypt-section img {
+        width: 150px;
+        height: 150px;
+    }
+}
